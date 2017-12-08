@@ -20,5 +20,4 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(tags={"@home"},format={"pretty","html:reports","json:C:\\Users\\Veerapathiran\\workspace\\Clinicsproject\\json\\login.json"},features={"C:\\Users\\Veerapathiran\\workspace\\Clinicsproject\\src\\test\\resources\\loginfeature"},glue={"login"})
 @RunWith(Cucumber.class)
 public class Loginrun {
-
 }
